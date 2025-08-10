@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-2 {
+    background: url(images/headphones_hero_2.jpg);
+    width: 1350.9px;
+    height: 750px;
+}
+
+.favicon {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.hola {
+    padding-top: 300px;
+    margin-top: 80px;
+}
+
+.hola p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro 3';
+}
+
+.favicon img {
+    width: 180px;
+    height: 180px;
+    padding-top: 120px;
+}
+
+.favicon-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.favicon-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.favicon-text-1 {
+    color: white;
+    position: absolute;
+    right: 18%;
+    top: 80%;
+}
