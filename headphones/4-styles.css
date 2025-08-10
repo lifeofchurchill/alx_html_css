@@ -1,3 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url(images/headphones_hero_1.jpg);
+    width: 1350.9px;
+    height: 800px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    width: 1150px;
+    height: 32px;
+    gap: 300px;
+}
+
+nav img {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 161px;
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 41px;
+}
+
+nav li {
+    gap: 41px;
+    margin-top: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.background-span {
+    text-align: center;
+    margin-top: 350px;
+    color: #ffffff;
+}
+
+.background-span h1 {
+    font-size: 32px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.background-span span {
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.background-span button {
+    background: #ff6565;
+    color: #ffffff;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    box-shadow: none;
+    outline: none;
+    filter: none;
+    text-shadow: none;
+    border: none;
+}
+
+.background-paragraph {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.summary {
+    text-align: center;
+    margin-top: 170px;
+    font-size: 16px;
+    font-family: 'Source Sans 3' sans-serif;
+
+}
+
+.activities-showcase {
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.activities-showcase div {
+    padding: 60px;
+}
+
+.activities-showcase p {
+    margin-top: 40px;
+}
+
+.activitie-3 p {
+    margin-top: 80px;
+}
+
+.activitie-2 p {
+    margin-top: 60px;
+}
+
+.activitie-1 p {
+    margin-top: 70px;
+}
+
+.activitie-4 p {
+    margin-top: 75px;
+}
+
+.container-2 {
+    background: url(images/headphones_hero_2.jpg);
+    width: 1350.9px;
+    height: 750px;
+}
+
+.favicon {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.hola {
+    padding-top: 300px;
+    margin-top: 80px;
+}
+
+.hola p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Source Sans Pro 3';
+}
+
+.favicon img {
+    width: 180px;
+    height: 180px;
+    padding-top: 120px;
+}
+
+.favicon-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.favicon-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.favicon-text-1 {
+    color: white;
+    position: absolute;
+    right: 18%;
+    top: 80%;
+}
+
+
+#form-section {
+    max-width: 335px;
+    max-height: 373px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+#form-section h2 {
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Source Sans 3', sans-serif;
+    margin-bottom: 80px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 0;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-bottom: 1px solid #f66;
+}
+
+form button {
+    background: #ff6565;
+    color: #ffffff;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.btn-1 {
+    box-shadow: none;
+    outline: none;
+    filter: none;
+    text-shadow: none;
+    border: none;
+}
 
 footer {
     background: #071629;
