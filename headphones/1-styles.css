@@ -1,0 +1,47 @@
+
+.background-paragraph {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.summary {
+    text-align: center;
+    margin-top: 170px;
+    font-size: 16px;
+    font-family: 'Source Sans 3' sans-serif;
+
+}
+
+.activities-showcase {
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.activities-showcase div {
+    padding: 60px;
+}
+
+.activities-showcase p {
+    margin-top: 40px;
+}
+
+.activitie-3 p {
+    margin-top: 80px;
+}
+
+.activitie-2 p {
+    margin-top: 60px;
+}
+
+.activitie-1 p {
+    margin-top: 70px;
+}
+
+.activitie-4 p {
+    margin-top: 75px;
+}
