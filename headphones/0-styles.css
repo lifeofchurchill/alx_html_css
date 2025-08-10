@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: url(images/headphones_hero_1.jpg);
+    width: 1350.9px;
+    height: 800px;
+}
+
+nav {
+    justify-content: space-between;
+    display: flex;
+    width: 1150px;
+    height: 32px;
+    gap: 300px;
+}
+
+nav img {
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 161px;
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 41px;
+}
+
+nav li {
+    gap: 41px;
+    margin-top: 24px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Source Sans 3', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.background-span {
+    text-align: center;
+    margin-top: 350px;
+    color: #ffffff;
+}
+
+.background-span h1 {
+    font-size: 32px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.background-span span {
+    font-size: 16px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.background-span button {
+    background: #ff6565;
+    color: #ffffff;
+    margin-top: 35px;
+    padding: 5px;
+    border-radius: 30px;
+    width: 162px;
+    height: 44px;
+    font-size: 14px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: bold;
+}
+
+.btn {
+    box-shadow: none;
+    outline: none;
+    filter: none;
+    text-shadow: none;
+    border: none;
+}
